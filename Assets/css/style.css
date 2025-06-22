@@ -1,5 +1,5 @@
 body {
-    background: url('/Assets/images/bg.jpg') !important;
+    background: url('Assets/images/bg.jpg') !important;
     background-size: contain !important;
     background-position: center !important;
     background-attachment: fixed !important;
@@ -54,7 +54,7 @@ body {
 
 #sliderBg1 {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-        url("/Assets/images/bg (3).jpg") no-repeat;
+        url("Assets/images/bg (3).jpg") no-repeat;
 
     background-size: cover;
     background-position: center;
@@ -63,7 +63,7 @@ body {
 
 #sliderBg2 {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-        url("/Assets/images/bg (2).jpg") no-repeat;
+        url("Assets/images/bg (2).jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: auto;
@@ -71,7 +71,7 @@ body {
 
 #sliderBg3 {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-        url("/Assets/images/bg (1).jpg") no-repeat;
+        url("Assets/images/bg (1).jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: auto;
