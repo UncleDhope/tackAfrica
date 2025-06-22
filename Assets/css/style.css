@@ -1,0 +1,114 @@
+body {
+    background: url('/Assets/images/bg.jpg') !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    backdrop-filter: blur(3px);
+    background-repeat: no-repeat !important;
+    height: auto !important;
+    font-family: "Jolly Lodger", system-ui !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem !important;
+    scroll-behavior: smooth;
+}
+
+/* swiper */
+.swiper-slider {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slider img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 750px;
+
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#sliderBg1 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+        url("/Assets/images/bg (3).jpg") no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+#sliderBg2 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+        url("/Assets/images/bg (2).jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+#sliderBg3 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+        url("/Assets/images/bg (1).jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+#welcome1 {
+    border-left: 5px solid rgb(143, 98, 38);
+}
+
+#coreValues {
+    border-left: 5px solid black;
+}
+
+#archievements {
+    border-left: 5px solid black;
+}
+
+#btn1 {
+    cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: rgb(143, 98, 38);
+    color: white;
+}
+
+#cardy:hover {
+    transform: scale(1.01);
+    transition: 0.5s;
+    background-color: rgba(235, 236, 235, 0.24);
+    color: black;
+    cursor: pointer;
+}
+#welcome:hover {
+    transform: scale(1.01);
+    transition: 1s ease-in-out;
+    background-color: rgba(235, 236, 235, 0.24);
+    color: black;
+    cursor: pointer;
+}
